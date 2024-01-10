@@ -48,3 +48,66 @@
       right: 31%;
     }
   }
+
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .container {
+    height: 450px;
+    background: #ffffff1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 2px solid #ffffff30;
+    backdrop-filter: blur(15px);
+  }
+
+  .username h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .Designation h4 {
+    text-align: center;
+    color: #ffffff85;
+    /* color: white; */
+  }
+
+  .btn {
+    border: 2px solid #ffffffb9;
+    background: #ffffff00;
+    color: #ffffffb9;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: capitalize;
+    padding: 9px 12px;
+    transition: all 0.5s;
+  }
+  .btnshare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .btnFollow {
+    width: 150px;
+  }
+  
+  .btnFollow a{
+    text-decoration: none;
+    color: #ffffffb9;
+  }
