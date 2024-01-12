@@ -9,3 +9,6 @@ To use Social Profile Sharer, follow these simple steps:
 2. Navigate to the Project Directory
 3. Configure Your Social Links
 4. Run the Application
+5. Visit Your Profile:
+  Open your web browser and navigate to http://localhost
+  You should see your shareable profile page with all your social media links.
